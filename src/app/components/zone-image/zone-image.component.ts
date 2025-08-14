@@ -5,7 +5,7 @@ import { GameState } from '../../../stores/game-store';
   selector: 'val-zone-image',
   imports: [],
   template: `
-  <div class="w-[800px] h-[800px]">
+  <div class="w-[500px] h-[500px]">
     <img
       id="imagen-ronda"
       src="assets/zones/{{this.gameStore.zonas[gameStore.rondaActual - 1].archivo}}"

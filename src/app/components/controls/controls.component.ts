@@ -11,7 +11,7 @@ import { CommonModule, NgIf } from '@angular/common';
   <div class="flex gap-4">
     @if (gameStore.rondaTerminada) {
       <button 
-        class="w-fit px-4 py-2 border-2 rounded-lg text-white text-3xl font-medium cursor-pointer bg-[#66C2A9] hover:bg-[#0e8968] border-white"
+        class="w-fit px-4 py-2 border-2 rounded-lg text-white text-xl font-medium cursor-pointer bg-[#66C2A9] hover:bg-[#0e8968] border-white"
         (click)="onClickSiguienteRonda()"
       >
         {{ gameStore.rondaActual !== gameStore.MAX_LEVEL ? 'Siguiente ronda' : 'Finalizar'}}

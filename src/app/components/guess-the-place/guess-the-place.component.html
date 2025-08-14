@@ -1,18 +1,18 @@
-<div class="w-screen h-screen bg-[#131722]"
+<div class="w-screen h-screen"
   [ngClass]="{'p-10': juegoIniciado}">
   <!-- PANTALLA INICIO -->
   @if (!juegoIniciado) {
     <div class="relative h-screen">
       <div class="h-screen flex flex-col items-center justify-center gap-10 sm:gap-20">
         <div class="flex flex-col gap-4">
-          <span class="text-center font-bold text-gray-500">v 1.0.0</span>
-          <img src="/assets/valorant-guess-the-place.svg" alt="Valorant Guess The Place" width="1200" class="w-[400px] sm:w-[1200px]">
+          <span class="text-center font-bold text-gray-500">v 1.0.1</span>
+          <img src="/assets/valorant-guess-the-place.svg" alt="Valorant Guess The Place" width="900" class="w-[400px] sm:w-[900px]">
         </div>
-        <button (click)="juegoIniciado = !juegoIniciado" class="w-40 sm:w-80 h-16 sm:h-32 text-white font-bold text-2xl sm:text-5xl rounded-[22px] sm:rounded-[44px] cursor-pointer bg-gradient-to-r from-[#FF3E47] to-[#FF7160] shadow-[0px_0px_20px] hover:shadow-[0px_0px_40px] shadow-[#FF3E47]">
+        <button (click)="juegoIniciado = !juegoIniciado" class="w-30 sm:w-60 h-16 sm:h-28 text-white font-bold text-2xl sm:text-5xl rounded-[22px] sm:rounded-[44px] cursor-pointer bg-gradient-to-r from-[#FF3E47] to-[#FF7160] shadow-[0px_0px_20px] hover:shadow-[0px_0px_40px] shadow-[#FF3E47]">
           Jugar
         </button>
   
-        <div class="flex flex-col gap-4 items-center text-white text-lg sm:text-2xl cursor-default">
+        <div class="flex flex-col gap-4 items-center text-white text-lg sm:text-xl cursor-default">
           <span class="w-fit bg-[#0e8968] px-4 py-2 rounded-lg font-bold">¿Cómo jugar?</span>
           <ol>
             <li>1. Mantener clic izquierdo para arrastrar.</li>
@@ -22,7 +22,7 @@
         </div>
       </div>
 
-      <div class="absolute bottom-[50px] left-[0px] sm:left-[50px] font-bold text-gray-500 text-lg sm:text-2xl text-center">
+      <div class="absolute bottom-[50px] left-[0px] sm:left-[50px] font-bold text-gray-500 text-lg sm:text-xl text-center">
         <span>© 2025 Manuel Rodriguez. Todos los derechos reservados.</span>
       </div>
     </div>
