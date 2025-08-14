@@ -1,0 +1,67 @@
+<div class="w-screen h-screen bg-[#131722]"
+  [ngClass]="{'p-10': juegoIniciado}">
+  <!-- PANTALLA INICIO -->
+  @if (!juegoIniciado) {
+    <div class="relative h-screen">
+      <div class="h-screen flex flex-col items-center justify-center gap-10 sm:gap-20">
+        <div class="flex flex-col gap-4">
+          <span class="text-center font-bold text-gray-500">v 1.0.0</span>
+          <img src="/assets/valorant-guess-the-place.svg" alt="Valorant Guess The Place" width="1200" class="w-[400px] sm:w-[1200px]">
+        </div>
+        <button (click)="juegoIniciado = !juegoIniciado" class="w-40 sm:w-80 h-16 sm:h-32 text-white font-bold text-2xl sm:text-5xl rounded-[22px] sm:rounded-[44px] cursor-pointer bg-gradient-to-r from-[#FF3E47] to-[#FF7160] shadow-[0px_0px_20px] hover:shadow-[0px_0px_40px] shadow-[#FF3E47]">
+          Jugar
+        </button>
+  
+        <div class="flex flex-col gap-4 items-center text-white text-lg sm:text-2xl cursor-default">
+          <span class="w-fit bg-[#0e8968] px-4 py-2 rounded-lg font-bold">¿Cómo jugar?</span>
+          <ol>
+            <li>1. Mantener clic izquierdo para arrastrar.</li>
+            <li>2. Clic derecho para seleccionar lugar.</li>
+            <li>3. Rueda del mouse para hacer zoom.</li>
+        </ol>
+        </div>
+      </div>
+
+      <div class="absolute bottom-[50px] left-[0px] sm:left-[50px] font-bold text-gray-500 text-lg sm:text-2xl text-center">
+        <span>© 2025 Manuel Rodriguez. Todos los derechos reservados.</span>
+      </div>
+    </div>
+    
+  }
+  @else if (juegoIniciado && !isTouchLayout()){
+    <img src="/assets/valorant-guess-the-place.svg" alt="Valorant Guess The Place" class="mx-auto mb-10" width="500">
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div class="flex flex-col items-center gap-4">
+        <val-zone-image></val-zone-image>
+        <val-controls></val-controls>
+      </div>
+
+      <div class="flex flex-col items-center gap-4">
+        <val-minimap-canvas></val-minimap-canvas>
+        <val-map-selection></val-map-selection>
+      </div>
+    </div>
+
+    @if (!this.gameStore.juegoFinalizado) {
+      <div class="flex justify-center mt-10">
+        <span class="text-white font-extrabold text-5xl">{{ gameStore.outputMessage }}</span>
+      </div>
+    }
+
+    @if (gameStore.juegoFinalizado) {
+      <div class="flex flex-col justify-center mt-20 gap-10">
+        <span class="text-center text-white font-extrabold text-5xl">⭐ Juego Finalizado ⭐</span>
+        <div class="flex justify-center gap-10">
+          <span class="text-white font-extrabold text-5xl">✅Aciertos: {{ gameStore.aciertos }}</span>
+          <span class="text-white font-extrabold text-5xl">❌Errores: {{ gameStore.errores }}</span>
+        </div>
+      </div>
+    }
+  }
+  @else {
+    <div class="flex h-full items-center text-white text-5xl text-center">
+      <p>😔 App no disponible en dispositivos móviles 😔</p>
+    </div>
+  }
+</div>

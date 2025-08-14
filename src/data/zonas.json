@@ -1,0 +1,152 @@
+[
+  {
+    "archivo": "pizzas_ascent.jpg",
+    "mapa": "Ascent",
+    "coords": { "x": 326, "y": 441 }
+  },
+  {
+    "archivo": "mercado_ascent.jpg",
+    "mapa": "Ascent",
+    "coords": { "x": 342, "y": 588 }
+  },
+  {
+    "archivo": "biglietti_ascent.jpg",
+    "mapa": "Ascent",
+    "coords": { "x": 520, "y": 403 }
+  },
+  {
+    "archivo": "barriles_ascent.jpg",
+    "mapa": "Ascent",
+    "coords": { "x": 349, "y": 259 }
+  },
+  {
+    "archivo": "vinivenari_ascent.jpg",
+    "mapa": "Ascent",
+    "coords": { "x": 486, "y": 50 }
+  },
+  {
+    "archivo": "gelato_ascent.jpg",
+    "mapa": "Ascent",
+    "coords": { "x": 700, "y": 267 }
+  },
+  {
+    "archivo": "negozio_ascent.jpg",
+    "mapa": "Ascent",
+    "coords": { "x": 824, "y": 373 }
+  },
+  {
+    "archivo": "pasillo_ascent.jpg",
+    "mapa": "Ascent",
+    "coords": { "x": 804, "y": 677 }
+  },
+  {
+    "archivo": "libreria_ascent.jpg",
+    "mapa": "Ascent",
+    "coords": { "x": 588, "y": 463 }
+  },
+  {
+    "archivo": "perro_ascent.jpg",
+    "mapa": "Ascent",
+    "coords": { "x": 488, "y": 355 }
+  },
+  {
+    "archivo": "bici_bind.jpg",
+    "mapa": "Bind",
+    "coords": { "x": 759, "y": 717 }
+  },
+  {
+    "archivo": "trofeo_bind.jpg",
+    "mapa": "Bind",
+    "coords": { "x": 283, "y": 220 }
+  },
+  {
+    "archivo": "lampara_bind.jpg",
+    "mapa": "Bind",
+    "coords": { "x": 342, "y": 516 }
+  },
+  {
+    "archivo": "tienda_bind.jpg",
+    "mapa": "Bind",
+    "coords": { "x": 457, "y": 585 }
+  },
+  {
+    "archivo": "banios_bind.jpg",
+    "mapa": "Bind",
+    "coords": { "x": 876, "y": 417 }
+  },
+  {
+    "archivo": "balcon_bind.jpg",
+    "mapa": "Bind",
+    "coords": { "x": 586, "y": 462 }
+  },
+  {
+    "archivo": "maceta_bind.jpg",
+    "mapa": "Bind",
+    "coords": { "x": 872, "y": 617 }
+  },
+  {
+    "archivo": "lamparas_bind.jpg",
+    "mapa": "Bind",
+    "coords": { "x": 585, "y": 308 }
+  },
+  {
+    "archivo": "ct_bind.jpg",
+    "mapa": "Bind",
+      "coords": { "x": 525, "y": 20 }
+  },
+  {
+    "archivo": "t_bind.jpg",
+    "mapa": "Bind",
+    "coords": { "x": 720, "y": 800 }
+  },
+  {
+    "archivo": "ventana_haven.jpg",
+    "mapa": "Haven",
+    "coords": { "x": 249, "y": 364 }
+  },
+  {
+    "archivo": "mazo_haven.jpg",
+    "mapa": "Haven",
+    "coords": { "x": 541, "y": 597 }
+  },
+  {
+    "archivo": "sol_haven.jpg",
+    "mapa": "Haven",
+    "coords": { "x": 319, "y": 501 }
+  },
+  {
+    "archivo": "mapa_haven.jpg",
+    "mapa": "Haven",
+    "coords": { "x": 664, "y": 434 }
+  },
+  {
+    "archivo": "dragon_haven.jpg",
+    "mapa": "Haven",
+    "coords": { "x": 707, "y": 889 }
+  },
+  {
+    "archivo": "arbol_haven.jpg",
+    "mapa": "Haven",
+    "coords": { "x": 781, "y": 345 }
+  },
+  {
+    "archivo": "objetivo_haven.jpg",
+    "mapa": "Haven",
+    "coords": { "x": 374, "y": 690 }
+  },
+  {
+    "archivo": "escalera_haven.jpg",
+    "mapa": "Haven",
+    "coords": { "x": 705, "y": 669 }
+  },
+  {
+    "archivo": "t_haven.jpg",
+    "mapa": "Haven",
+    "coords": { "x": 856, "y": 433 }
+  },
+  {
+    "archivo": "mid_haven.jpg",
+    "mapa": "Haven",
+    "coords": { "x": 644, "y": 482 }
+  }
+]
