@@ -1,6 +1,6 @@
 [build]
-  command = "ng build --configuration production"
-  publish = "dist/valorant-guess"
+  command = "npm ci && npm run build"
+  publish = "dist/valorant-guess/browser"
 
 [[redirects]]
   from = "/*"
